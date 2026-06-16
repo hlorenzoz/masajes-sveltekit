@@ -8,9 +8,9 @@
     "enabled": true
   },
   "env": {
-    "staging": {
+    "preview": {
       "vars": {
-        "ENVIRONMENT": "staging"
+        "ENVIRONMENT": "preview"
       },
       "r2_buckets": [
         {
