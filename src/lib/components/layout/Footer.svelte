@@ -64,8 +64,8 @@
     >
       <p>© {year} Hondo. {f.rights}</p>
       <nav class="flex gap-5" aria-label="Legal">
-        <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal`}>{f.privacy}</a>
-        <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal`}>{f.terms}</a>
+        <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal/privacy`}>{f.privacy}</a>
+        <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal/terms`}>{f.terms}</a>
       </nav>
     </div>
   </div>
