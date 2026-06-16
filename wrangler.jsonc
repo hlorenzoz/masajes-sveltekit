@@ -11,24 +11,12 @@
     "preview": {
       "vars": {
         "ENVIRONMENT": "preview"
-      },
-      "r2_buckets": [
-        {
-          "binding": "R2_BUCKET",
-          "bucket_name": "masajes-assets-staging"
-        }
-      ]
+      }
     },
     "production": {
       "vars": {
         "ENVIRONMENT": "production"
-      },
-      "r2_buckets": [
-        {
-          "binding": "R2_BUCKET",
-          "bucket_name": "masajes-assets"
-        }
-      ]
+      }
     }
   }
 }
