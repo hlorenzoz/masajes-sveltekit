@@ -13,7 +13,7 @@
     "lint": "prettier --check .",
     "test:unit": "vitest",
     "test:e2e": "playwright test",
-    "deploy": "wrangler pages deploy .svelte-kit/cloudflare"
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240000.0",
