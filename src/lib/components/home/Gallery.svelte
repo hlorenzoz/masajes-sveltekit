@@ -125,6 +125,7 @@
               alt={lang === 'es' ? activeShot.es : activeShot.en}
               width={activeShot.w}
               height={activeShot.h}
+              sizes="(min-width: 1024px) 600px, 90vw"
               class="h-full w-full object-cover transition-transform duration-1000 hover:scale-105"
             />
           </div>

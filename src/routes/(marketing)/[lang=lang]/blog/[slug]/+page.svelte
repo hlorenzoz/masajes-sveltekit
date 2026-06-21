@@ -191,7 +191,14 @@
       use:reveal={{ delay: 100 }}
     >
       <div class="aspect-16/9 overflow-hidden">
-        <Image src={post.image} alt={post.title[lang]} width={1200} height={700} priority />
+        <Image
+          src={post.image}
+          alt={post.title[lang]}
+          width={1200}
+          height={700}
+          sizes="(min-width: 1024px) 1024px, 100vw"
+          priority
+        />
       </div>
     </div>
 

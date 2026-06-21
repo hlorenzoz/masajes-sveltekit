@@ -62,7 +62,14 @@
           <div
             class="mask-organic-1 shadow-lift aspect-[4/5] overflow-hidden relative bg-(--bg-surface)"
           >
-            <Image src="/images/hero.webp" alt="Hondo Studio" width={1000} height={1250} priority />
+            <Image
+              src="/images/hero.webp"
+              alt="Hondo Studio"
+              width={1000}
+              height={1250}
+              sizes="(min-width: 1024px) 540px, 384px"
+              priority
+            />
           </div>
         </div>
       </div>

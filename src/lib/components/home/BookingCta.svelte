@@ -20,7 +20,7 @@
       use:reveal
     >
       <div class="absolute inset-0 -z-10">
-        <Image src="/images/cta.webp" alt="" width={1800} height={1800} />
+        <Image src="/images/cta.webp" alt="" width={1800} height={1800} sizes="100vw" />
         <div class="absolute inset-0 bg-black/75"></div>
       </div>
 

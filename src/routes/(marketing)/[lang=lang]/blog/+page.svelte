@@ -105,6 +105,7 @@
                 alt={featuredPost.title[lang]}
                 width={1200}
                 height={700}
+                sizes="(min-width: 1024px) 640px, 100vw"
                 class="transition-transform duration-1000 group-hover:scale-103"
               />
             </a>
@@ -162,6 +163,7 @@
                   alt={post.title[lang]}
                   width={800}
                   height={550}
+                  sizes="(min-width: 640px) 50vw, 100vw"
                   class="transition-transform duration-1000 group-hover:scale-103"
                 />
               </a>

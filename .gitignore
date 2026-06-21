@@ -159,3 +159,10 @@ bun.lockb.bak
 # Agent Teams Lite
 /.atl
 
+# Generated responsive image variants (npm run images / build) — reproducible from originals
+/static/images/*-256.*
+/static/images/*-480.*
+/static/images/*-768.*
+/static/images/*-1024.*
+/static/images/*.avif
+

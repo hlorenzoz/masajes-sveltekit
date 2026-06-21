@@ -28,6 +28,7 @@
             : 'Sarah Jenkins, Demo Massage therapist'}
           width={600}
           height={750}
+          sizes="(min-width: 640px) 288px, 256px"
           class="h-full w-full object-cover"
         />
       </div>
@@ -41,6 +42,7 @@
           alt="Aromaterapia"
           width={350}
           height={350}
+          sizes="(min-width: 640px) 176px, 144px"
           class="h-full w-full object-cover"
         />
       </div>
@@ -54,6 +56,7 @@
           alt={i18n.lang === 'es' ? 'Masaje relajante' : 'Relaxing massage'}
           width={300}
           height={300}
+          sizes="(min-width: 640px) 144px, 112px"
           class="h-full w-full object-cover"
         />
       </div>
