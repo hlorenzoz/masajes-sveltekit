@@ -77,7 +77,7 @@
 </script>
 
 <svelte:head>
-  <title>{treatment.name[lang]} · Hondo</title>
+  <title>{treatment.name[lang]} · Demo Massage</title>
 </svelte:head>
 
 <section class="bg-(--bg-base) pt-32 pb-20 md:pt-40 md:pb-28">
@@ -198,8 +198,8 @@
     </h2>
     <p class="mt-6 text-base text-(--text-muted) max-w-xl mx-auto">
       {lang === 'es'
-        ? 'Las citas se confirman en el mismo día. Sergio atiende de forma exclusiva en un entorno completamente privado.'
-        : 'Appointments are confirmed the same day. Sergio offers exclusive care in a fully private setting.'}
+        ? 'Las citas se confirman en el mismo día. Sarah atiende de forma exclusiva en un entorno completamente privado.'
+        : 'Appointments are confirmed the same day. Sarah offers exclusive care in a fully private setting.'}
     </p>
     <div class="mt-10 flex flex-wrap justify-center gap-4">
       <Button href={`${base}/contacto?servicio=${treatment.slug}`} size="lg">

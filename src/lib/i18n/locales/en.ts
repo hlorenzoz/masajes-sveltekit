@@ -2,9 +2,9 @@ import type { Dictionary } from '../types';
 
 export const en: Dictionary = {
   meta: {
-    title: 'Hondo · Signature therapeutic massage',
+    title: 'Demo Massage · Signature therapeutic massage',
     description:
-      'A therapeutic massage studio in Costa Rica. Deep hands-on work, sessions shaped to you and real recovery, with Sergio Zaldívar Guillén.'
+      'A therapeutic massage studio in Richmond, London. Deep hands-on work, sessions shaped to you and real recovery, with Sarah Jenkins.'
   },
   nav: {
     home: 'Home',
@@ -20,10 +20,10 @@ export const en: Dictionary = {
     toggleDark: 'Switch to dark mode'
   },
   hero: {
-    eyebrow: 'Hondo · Signature massage',
+    eyebrow: 'Demo Massage · Signature massage',
     title: 'The body remembers what the mind forgets',
     subtitle:
-      'A therapeutic massage studio in Costa Rica. Every session is worked at your pace, with deep hands-on technique that gives back mobility, rest and balance.',
+      'A therapeutic massage studio in Richmond, London. Every session is worked at your pace, with deep hands-on technique that gives back mobility, rest and balance.',
     ctaPrimary: 'Book a session',
     ctaSecondary: 'See treatments',
     scroll: 'Discover'
@@ -31,9 +31,9 @@ export const en: Dictionary = {
   philosophy: {
     eyebrow: 'The method',
     title: 'Not a pampering. Serious bodywork',
-    lead: 'Hondo starts from a simple idea: rest is something you train for too. Every detail of the studio — the warm light, the quiet, the temperature — is here to let the body lower its guard and be worked.',
+    lead: 'Demo Massage starts from a simple idea: rest is something you train for too. Every detail of the studio — the warm light, the quiet, the temperature — is here to let the body lower its guard and be worked.',
     body: 'I work without rushing. Before each session I ask how you arrived and adapt the pressure, the pace and the strokes to what your body needs that day. No rigid protocols — attention and craft.',
-    signature: 'Sergio Zaldívar Guillén, founder and therapist'
+    signature: 'Sarah Jenkins, founder and therapist'
   },
   treatments: {
     eyebrow: 'Signature treatments',
@@ -45,7 +45,7 @@ export const en: Dictionary = {
     minutesLabel: 'min'
   },
   benefits: {
-    eyebrow: 'Why Hondo',
+    eyebrow: 'Why Demo Massage',
     title: 'Few gestures, deep effect',
     items: [
       {
@@ -74,21 +74,21 @@ export const en: Dictionary = {
     quotes: [
       {
         quote:
-          'My back had been locked up from months at a desk. Three sessions with Sergio and I was training again, pain-free.',
-        author: 'Diego Salvat',
-        location: 'San José'
+          'My back had been locked up from months at a desk. Three sessions with Sarah and I was training again, pain-free.',
+        author: 'David Sterling',
+        location: 'Richmond'
       },
       {
         quote:
-          'This is not a hotel massage. It is deep, precise work, and he knows exactly where to press.',
-        author: 'Ramiro Castel',
-        location: 'Escazú'
+          'This is not a hotel massage. It is deep, precise work, and she knows exactly where to press.',
+        author: 'Robert Carlton',
+        location: 'Kensington'
       },
       {
         quote:
           'I leave the studio as if someone had reset me. I book every two weeks without fail.',
-        author: 'Elena Roust',
-        location: 'Santa Ana'
+        author: 'Eleanor Rust',
+        location: 'Wimbledon'
       }
     ]
   },
@@ -105,14 +105,14 @@ export const en: Dictionary = {
     hoursLabel: 'Hours',
     hours: 'Mon to Sat · 10:00 – 21:00',
     locationLabel: 'Where',
-    location: 'Escazú, San José, Costa Rica'
+    location: 'Richmond, London, United Kingdom'
   },
   footer: {
-    tagline: 'A therapeutic massage studio in Costa Rica. Deep hands-on work and real recovery.',
+    tagline: 'A therapeutic massage studio in Richmond, London. Deep hands-on work and real recovery.',
     exploreLabel: 'Explore',
     visitLabel: 'Visit us',
-    address: 'Escazú, San José, Costa Rica',
-    phone: '+506 4000 1234',
+    address: 'Richmond, London, United Kingdom',
+    phone: '+44 7700 900077',
     hours: 'Mon to Sat · 10:00 – 21:00',
     rights: 'All rights reserved.',
     privacy: 'Privacy',

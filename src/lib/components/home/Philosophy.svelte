@@ -17,15 +17,15 @@
   <div class="container-zen grid items-center gap-14 md:grid-cols-12 md:gap-16 relative z-10">
     <!-- Collage de imágenes con formas circulares y elipse -->
     <div class="relative md:col-span-5 flex justify-center items-center py-10" use:reveal>
-      <!-- Imagen principal ovalada (Sergio) -->
+      <!-- Imagen principal ovalada (Sarah) -->
       <div
         class="relative w-64 sm:w-72 aspect-[4/5] mask-organic-2 shadow-lift bg-(--bg-elevated) z-10"
       >
         <Image
-          src="/images/sergio.webp"
+          src="/images/sarah.webp"
           alt={i18n.lang === 'es'
-            ? 'Sergio Zaldívar Guillén, terapeuta de Hondo'
-            : 'Sergio Zaldívar Guillén, Hondo therapist'}
+            ? 'Sarah Jenkins, terapeuta de Demo Massage'
+            : 'Sarah Jenkins, Demo Massage therapist'}
           width={600}
           height={750}
           class="h-full w-full object-cover"

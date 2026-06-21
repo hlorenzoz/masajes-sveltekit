@@ -9,20 +9,18 @@
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
 
 @theme {
-  /* — Umber cálido (escala de marca): taupe → espresso. Masculino, terroso.
-     Conserva los nombres de token `sage-*` para no romper referencias;
-     los valores ya no son verdes sino marrón cálido. — */
-  --color-sage-50: #f5f3ef;
-  --color-sage-100: #e9e4db;
-  --color-sage-200: #d4cabb;
-  --color-sage-300: #b8aa97;
-  --color-sage-400: #94836d;
-  --color-sage-500: #74634f; /* primario cálido */
-  --color-sage-600: #5d4e3d;
-  --color-sage-700: #4a3d30;
-  --color-sage-800: #38302a;
-  --color-sage-900: #292019; /* superficie oscura */
-  --color-sage-950: #181410; /* base espresso, casi negro cálido */
+  /* — Sage Green elegante (escala de marca): salvia → eucalipto → bosque profundo. — */
+  --color-sage-50: #f4f6f4;
+  --color-sage-100: #e5eae6;
+  --color-sage-200: #cbded1;
+  --color-sage-300: #adc7b6;
+  --color-sage-400: #8ea898;
+  --color-sage-500: #6f8b7b; /* primario salvia */
+  --color-sage-600: #587162;
+  --color-sage-700: #475a4e;
+  --color-sage-800: #36443b;
+  --color-sage-900: #26302a; /* superficie oscura bosque */
+  --color-sage-950: #131916; /* base bosque profundo, casi negro verde */
 
   /* — Bronce / champagne: único acento de lujo — */
   --color-gold-200: #ecdcbf;
@@ -72,14 +70,14 @@
 }
 
 [data-theme='dark'] {
-  --bg-base: #060f14;
-  --bg-surface: #08131a;
-  --bg-elevated: #0c1d27;
-  --text-base: #f1f5f9;
-  --text-muted: #94a3b8;
-  --line: color-mix(in oklab, #0c1d27 80%, transparent);
-  --brand: #e5c185;
-  --accent: #d4a359;
+  --bg-base: #090e0c; /* Negro bosque profundo */
+  --bg-surface: #0e1512; /* Superficie bosque */
+  --bg-elevated: #16221d; /* Elevado bosque suave */
+  --text-base: #edf3ef; /* Blanco salvia suave */
+  --text-muted: #8ea396; /* Eucalipto apagado */
+  --line: color-mix(in oklab, #16221d 80%, transparent);
+  --brand: #b2cebc; /* Salvia menta suave */
+  --accent: #d4a359; /* Acento oro/bronce de lujo */
 }
 
 @layer base {

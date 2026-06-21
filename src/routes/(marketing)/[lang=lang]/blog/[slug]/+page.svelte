@@ -60,8 +60,8 @@
         },
         {
           text: {
-            es: 'Cuando entendés que el descanso forma parte del entrenamiento del alto rendimiento, tu relación con tu cuerpo cambia. Sergio diseña cada sesión de Hondo en Costa Rica bajo esta premisa: darte el espacio y el oficio para que tu cuerpo realmente aprenda a soltar.',
-            en: 'When you understand that rest is part of high-performance training, your relationship with your body shifts. Sergio designs every Hondo session in Costa Rica under this premise: giving you the space and the craft for your body to truly learn to let go.'
+            es: 'Cuando entendés que el descanso forma parte del entrenamiento del alto rendimiento, tu relación con tu cuerpo cambia. Sarah diseña cada sesión de Demo Massage en Londres bajo esta premisa: darte el espacio y el oficio para que tu cuerpo realmente aprenda a soltar.',
+            en: 'When you understand that rest is part of high-performance training, your relationship with your body shifts. Sarah designs every Demo Massage session in London under this premise: giving you the space and the craft for your body to truly learn to let go.'
           }
         }
       ]
@@ -98,8 +98,8 @@
         },
         {
           text: {
-            es: 'En Hondo Costa Rica, no trabajamos con plantillas automáticas. Sergio localiza de forma precisa cada nudo muscular para liberar el rango completo de movimiento de tu espalda, permitiéndote volver al trabajo y a los entrenamientos sin dolor ni restricciones.',
-            en: 'At Hondo Costa Rica, we do not work with template routines. Sergio precisely locates each muscle knot to release the full range of motion of your back, allowing you to return to work and training pain-free.'
+            es: 'En Demo Massage Londres, no trabajamos con plantillas automáticas. Sarah localiza de forma precisa cada nudo muscular para liberar el rango completo de movimiento de tu espalda, permitiéndote volver al trabajo y a los entrenamientos sin dolor ni restricciones.',
+            en: 'At Demo Massage London, we do not work with template routines. Sarah precisely locates each muscle knot to release the full range of motion of your back, allowing you to return to work and training pain-free.'
           }
         }
       ]
@@ -136,8 +136,8 @@
         },
         {
           text: {
-            es: 'Este tratamiento es ideal para personas que sufren de cansancio generalizado, fibromialgia o tensión muscular difusa. Descubrí el ritual térmico y la atención artesanal de Sergio en su estudio en Costa Rica.',
-            en: "This treatment is ideal for individuals experiencing generalized fatigue, fibromyalgia, or diffuse muscle tension. Discover the thermal ritual and Sergio's artisanal care in his Costa Rica studio."
+            es: 'Este tratamiento es ideal para personas que sufren de cansancio generalizado, fibromialgia o tensión muscular difusa. Descubrí el ritual térmico y la atención artesanal de Sarah en su estudio en Londres.',
+            en: "This treatment is ideal for individuals experiencing generalized fatigue, fibromyalgia, or diffuse muscle tension. Discover the thermal ritual and Sarah's artisanal care in her London studio."
           }
         }
       ]
@@ -152,7 +152,7 @@
 </script>
 
 <svelte:head>
-  <title>{post.title[lang]} · Diario de Hondo</title>
+  <title>{post.title[lang]} · {lang === 'es' ? 'Diario de Demo Massage' : 'Demo Massage Journal'}</title>
 </svelte:head>
 
 <section class="bg-(--bg-base) pt-32 pb-24 md:pt-40 md:pb-36 min-h-dvh">
@@ -226,19 +226,19 @@
         class="p-6 md:p-8 rounded-zen bg-(--bg-surface) border border-(--line) shadow-soft flex flex-col sm:flex-row gap-6 items-center"
       >
         <div class="size-16 rounded-full overflow-hidden border border-gold-300/30 shrink-0">
-          <Image src="/images/sergio.webp" alt="Sergio Zaldívar Guillén" width={120} height={120} />
+          <Image src="/images/sarah.webp" alt="Sarah Jenkins" width={120} height={120} />
         </div>
         <div class="text-center sm:text-left">
           <span class="text-xs text-gold-500 uppercase tracking-widest"
             >{lang === 'es' ? 'Escrito por' : 'Written by'}</span
           >
           <h4 class="font-display text-lg font-medium text-(--text-base) mt-0.5">
-            Sergio Zaldívar Guillén
+            Sarah Jenkins
           </h4>
           <p class="text-xs text-(--text-muted) mt-1 leading-relaxed">
             {lang === 'es'
-              ? 'Terapeuta corporal especializado en terapia manual profunda y recuperación deportiva. Fundador de Hondo Costa Rica.'
-              : 'Body therapist specializing in deep manual therapy and sports recovery. Founder of Hondo Costa Rica.'}
+              ? 'Terapeuta corporal especializada en terapia manual profunda y recuperación deportiva. Fundadora de Demo Massage Londres.'
+              : 'Body therapist specializing in deep manual therapy and sports recovery. Founder of Demo Massage London.'}
           </p>
         </div>
       </div>

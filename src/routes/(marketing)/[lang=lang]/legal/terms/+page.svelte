@@ -11,7 +11,7 @@
 
 <svelte:head>
   <title>
-    {lang === 'es' ? 'Términos del Servicio · Hondo' : 'Terms of Service · Hondo'}
+    {lang === 'es' ? 'Términos del Servicio · Demo Massage' : 'Terms of Service · Demo Massage'}
   </title>
 </svelte:head>
 
@@ -39,14 +39,14 @@
 
       <div class="prose dark:prose-invert text-base leading-relaxed text-(--text-muted) space-y-8">
         <p>
-          Bienvenido a <strong>Hondo</strong>. Al solicitar una reserva o utilizar los servicios del estudio privado de masajes de Sergio Zaldívar Guillén, aceptás cumplir con estos Términos del Servicio. Te recomendamos leerlos con atención.
+          Bienvenido a <strong>Demo Massage</strong>. Al solicitar una reserva o utilizar los servicios del estudio privado de masajes de Sarah Jenkins, aceptás cumplir con estos Términos del Servicio. Te recomendamos leerlos con atención.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
           1. Reservas y Confirmación
         </h2>
         <p>
-          Las solicitudes de reserva se realizan a través de nuestro formulario en línea. Toda solicitud está sujeta a revisión de disponibilidad y <strong>no se considera confirmada</strong> hasta que recibas un correo electrónico de confirmación directa de Sergio con la fecha y hora definitivas.
+          Las solicitudes de reserva se realizan a través de nuestro formulario en línea. Toda solicitud está sujeta a revisión de disponibilidad y <strong>no se considera confirmada</strong> hasta que recibas un correo electrónico de confirmación directa de Sarah con la fecha y hora definitivas.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
@@ -74,7 +74,7 @@
           Es tu responsabilidad informar al terapeuta antes de iniciar la sesión sobre cualquier condición médica relevante, lesiones recientes, embarazo, cirugías o alergias a aceites esenciales.
         </p>
         <p>
-          <em>Descargo de responsabilidad médica:</em> Los tratamientos corporales realizados en Hondo tienen fines de bienestar, relajación y recuperación muscular. No reemplazan en ningún caso el diagnóstico, tratamiento o indicación de un profesional de la salud o médico certificado.
+          <em>Descargo de responsabilidad médica:</em> Los tratamientos corporales realizados en Demo Massage tienen fines de bienestar, relajación y recuperación muscular. No reemplazan en ningún caso el diagnóstico, tratamiento o indicación de un profesional de la salud o médico certificado.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
@@ -97,14 +97,14 @@
 
       <div class="prose dark:prose-invert text-base leading-relaxed text-(--text-muted) space-y-8">
         <p>
-          Welcome to <strong>Hondo</strong>. By requesting a booking or utilizing the services at the private massage studio of Sergio Zaldívar Guillén, you agree to comply with these Terms of Service. Please read them carefully.
+          Welcome to <strong>Demo Massage</strong>. By requesting a booking or utilizing the services at the private massage studio of Sarah Jenkins, you agree to comply with these Terms of Service. Please read them carefully.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
           1. Bookings and Confirmation
         </h2>
         <p>
-          Booking requests are submitted via our online form. All requests are subject to availability checks and <strong>are not considered confirmed</strong> until you receive a direct email confirmation from Sergio with final details.
+          Booking requests are submitted via our online form. All requests are subject to availability checks and <strong>are not considered confirmed</strong> until you receive a direct email confirmation from Sarah with final details.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
@@ -132,7 +132,7 @@
           It is your responsibility to inform the therapist before starting the session about any relevant medical conditions, recent injuries, pregnancy, surgeries, or essential oil allergies.
         </p>
         <p>
-          <em>Medical disclaimer:</em> Bodywork treatments performed at Hondo are for wellness, relaxation, and muscle recovery. They do not, under any circumstances, replace the diagnosis, treatment, or guidance of a licensed healthcare professional or medical doctor.
+          <em>Medical disclaimer:</em> Bodywork treatments performed at Demo Massage are for wellness, relaxation, and muscle recovery. They do not, under any circumstances, replace the diagnosis, treatment, or guidance of a licensed healthcare professional or medical doctor.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">

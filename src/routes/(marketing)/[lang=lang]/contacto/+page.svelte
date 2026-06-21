@@ -125,8 +125,8 @@
         </h1>
         <p class="mt-6 text-base leading-relaxed text-(--text-muted)">
           {lang === 'es'
-            ? 'Completá el formulario indicando tus preferencias. Sergio revisará tu propuesta y te confirmará la disponibilidad por correo electrónico en pocas horas.'
-            : 'Fill out the form indicating your preferences. Sergio will review your proposal and confirm availability by email within a few hours.'}
+            ? 'Completá el formulario indicando tus preferencias. Sarah revisará tu propuesta y te confirmará la disponibilidad por correo electrónico en pocas horas.'
+            : 'Fill out the form indicating your preferences. Sarah will review your proposal and confirm availability by email within a few hours.'}
         </p>
 
         <!-- Details block -->
@@ -167,7 +167,7 @@
             </span>
             <div>
               <h4 class="font-display text-lg font-medium text-(--text-base)">Email</h4>
-              <p class="text-sm text-(--text-muted) mt-1">contacto@hondo.cr</p>
+              <p class="text-sm text-(--text-muted) mt-1">hello@demomassage.co.uk</p>
             </div>
           </div>
 
@@ -202,8 +202,8 @@
               </h3>
               <p class="mt-4 text-base text-(--text-muted) max-w-md mx-auto">
                 {lang === 'es'
-                  ? 'Muchas gracias. Sergio se pondrá en contacto con vos hoy mismo para confirmar la hora exacta de tu masaje.'
-                  : 'Thank you very much. Sergio will contact you today to confirm the exact time for your massage.'}
+                  ? 'Muchas gracias. Sarah se pondrá en contacto con vos hoy mismo para confirmar la hora exacta de tu masaje.'
+                  : 'Thank you very much. Sarah will contact you today to confirm the exact time for your massage.'}
               </p>
               <div class="mt-8">
                 <a
@@ -333,7 +333,7 @@
                     name="name"
                     type="text"
                     required
-                    placeholder={lang === 'es' ? 'Ej. Sergio Zaldívar' : 'e.g. John Doe'}
+                    placeholder={lang === 'es' ? 'Ej. David Sterling' : 'e.g. David Sterling'}
                     bind:value={name}
                     class="w-full input-line-gold py-2 text-sm text-(--text-base) focus:outline-none transition-all placeholder:text-(--text-muted)/30"
                   />
@@ -348,7 +348,7 @@
                     name="email"
                     type="email"
                     required
-                    placeholder="sergio@hondo.cr"
+                    placeholder="sarah@demomassage.co.uk"
                     bind:value={email}
                     class="w-full input-line-gold py-2 text-sm text-(--text-base) focus:outline-none transition-all placeholder:text-(--text-muted)/30"
                   />

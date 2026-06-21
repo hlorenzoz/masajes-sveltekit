@@ -12,7 +12,7 @@
   <div class="container-zen grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
     <div class="max-w-xs">
       <a href={base} class="flex items-baseline gap-2 text-(--text-base)">
-        <span class="font-display text-2xl font-medium tracking-[0.22em] uppercase">Hondo</span>
+        <span class="font-display text-2xl font-medium tracking-[0.16em] uppercase">Demo Massage</span>
         <span class="h-1.5 w-1.5 rounded-full bg-(--accent)"></span>
       </a>
       <p class="mt-5 text-sm leading-relaxed text-(--text-muted)">{f.tagline}</p>
@@ -50,7 +50,7 @@
       <h2 class="eyebrow text-xs">{f.visitLabel}</h2>
       <address class="mt-4 flex flex-col gap-2.5 text-sm not-italic text-(--text-muted)">
         <span>{f.address}</span>
-        <a class="text-(--text-base) transition-colors hover:text-(--brand)" href="tel:+34911234567"
+        <a class="text-(--text-base) transition-colors hover:text-(--brand)" href="tel:+447700900077"
           >{f.phone}</a
         >
         <span class="tnum">{f.hours}</span>
@@ -62,7 +62,7 @@
     <div
       class="container-zen flex flex-col items-center justify-between gap-3 py-6 text-xs text-(--text-muted) sm:flex-row"
     >
-      <p>© {year} Hondo. {f.rights}</p>
+      <p>© {year} Demo Massage. {f.rights}</p>
       <nav class="flex gap-5" aria-label="Legal">
         <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal/privacy`}>{f.privacy}</a>
         <a class="transition-colors hover:text-(--text-base)" href={`${base}/legal/terms`}>{f.terms}</a>

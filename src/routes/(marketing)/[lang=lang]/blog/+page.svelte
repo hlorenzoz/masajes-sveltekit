@@ -80,7 +80,7 @@
       <h1
         class="mt-4 font-display text-4xl font-light leading-tight sm:text-5xl md:text-6xl text-(--text-base)"
       >
-        {lang === 'es' ? 'El Diario de Hondo' : 'The Hondo Journal'}
+        {lang === 'es' ? 'El Diario de Demo Massage' : 'The Demo Massage Journal'}
       </h1>
       <p class="mt-4 text-base text-(--text-muted)">
         {lang === 'es'

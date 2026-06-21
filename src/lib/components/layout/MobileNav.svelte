@@ -38,8 +38,8 @@
     >
       <div class="flex items-center justify-between">
         <span
-          class="font-display text-xl font-medium tracking-[0.22em] uppercase text-(--text-base)"
-          >Hondo</span
+          class="font-display text-xl font-medium tracking-[0.16em] uppercase text-(--text-base)"
+          >Demo Massage</span
         >
         <button
           class="grid size-9 place-items-center rounded-full hover:bg-(--bg-elevated)"

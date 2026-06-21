@@ -2,9 +2,9 @@ import type { Dictionary } from '../types';
 
 export const es: Dictionary = {
   meta: {
-    title: 'Hondo · Masaje terapéutico de autor',
+    title: 'Demo Massage · Masaje terapéutico de autor',
     description:
-      'Estudio de masaje terapéutico en Costa Rica. Trabajo manual profundo, sesiones a medida y recuperación real, de la mano de Sergio Zaldívar Guillén.'
+      'Estudio de masaje terapéutico en Richmond, Londres. Trabajo manual profundo, sesiones a medida y recuperación real, de la mano de Sarah Jenkins.'
   },
   nav: {
     home: 'Inicio',
@@ -20,10 +20,10 @@ export const es: Dictionary = {
     toggleDark: 'Cambiar a modo oscuro'
   },
   hero: {
-    eyebrow: 'Hondo · Masaje de autor',
+    eyebrow: 'Demo Massage · Masaje de autor',
     title: 'El cuerpo recuerda lo que la mente olvida',
     subtitle:
-      'Estudio de masaje terapéutico en Costa Rica. Cada sesión se trabaja a tu ritmo, con técnica manual profunda que devuelve movilidad, descanso y equilibrio.',
+      'Estudio de masaje terapéutico en Richmond, Londres. Cada sesión se trabaja a tu ritmo, con técnica manual profunda que devuelve movilidad, descanso y equilibrio.',
     ctaPrimary: 'Reservar sesión',
     ctaSecondary: 'Ver tratamientos',
     scroll: 'Descubrir'
@@ -31,9 +31,9 @@ export const es: Dictionary = {
   philosophy: {
     eyebrow: 'El método',
     title: 'No es un mimo. Es trabajo corporal serio',
-    lead: 'Hondo nace de una idea simple: el descanso también se entrena. Cada detalle del estudio —la luz cálida, el silencio, la temperatura— está pensado para que el cuerpo baje la guardia y se deje trabajar.',
+    lead: 'Demo Massage nace de una idea simple: el descanso también se entrena. Cada detalle del estudio —la luz cálida, el silencio, la temperatura— está pensado para que el cuerpo baje la guardia y se deje trabajar.',
     body: 'Trabajo sin prisa. Antes de cada sesión escucho cómo llegas y adapto la presión, el ritmo y las maniobras a lo que tu cuerpo necesita ese día. Sin protocolos rígidos: atención y oficio.',
-    signature: 'Sergio Zaldívar Guillén, fundador y terapeuta'
+    signature: 'Sarah Jenkins, fundadora y terapeuta'
   },
   treatments: {
     eyebrow: 'Tratamientos de autor',
@@ -45,7 +45,7 @@ export const es: Dictionary = {
     minutesLabel: 'min'
   },
   benefits: {
-    eyebrow: 'Por qué Hondo',
+    eyebrow: 'Por qué Demo Massage',
     title: 'Pocos gestos, efecto profundo',
     items: [
       {
@@ -76,21 +76,21 @@ export const es: Dictionary = {
     quotes: [
       {
         quote:
-          'Llevaba meses con la espalda bloqueada de la oficina. Tres sesiones con Sergio y volví a entrenar sin dolor.',
-        author: 'Diego Salvat',
-        location: 'San José'
+          'Llevaba meses con la espalda bloqueada de la oficina. Tres sesiones con Sarah y volví a entrenar sin dolor.',
+        author: 'David Sterling',
+        location: 'Richmond'
       },
       {
         quote:
-          'No es un masaje de hotel. Es trabajo profundo, preciso, y sabe exactamente dónde hay que apretar.',
-        author: 'Ramiro Castel',
-        location: 'Escazú'
+          'No es un masaje de hotel. Es trabajo profundo, preciso, y ella sabe exactamente dónde hay que apretar.',
+        author: 'Robert Carlton',
+        location: 'Kensington'
       },
       {
         quote:
           'Salgo del estudio como si me hubieran reiniciado. Reservo cada quince días sin falta.',
-        author: 'Elena Roust',
-        location: 'Santa Ana'
+        author: 'Eleanor Rust',
+        location: 'Wimbledon'
       }
     ]
   },
@@ -107,15 +107,15 @@ export const es: Dictionary = {
     hoursLabel: 'Horario',
     hours: 'Lun a Sáb · 10:00 – 21:00',
     locationLabel: 'Dónde',
-    location: 'Escazú, San José, Costa Rica'
+    location: 'Richmond, Londres, Reino Unido'
   },
   footer: {
     tagline:
-      'Estudio de masaje terapéutico en Costa Rica. Trabajo manual profundo y recuperación real.',
+      'Estudio de masaje terapéutico en Richmond, Londres. Trabajo manual profundo y recuperación real.',
     exploreLabel: 'Explorar',
     visitLabel: 'Visítanos',
-    address: 'Escazú, San José, Costa Rica',
-    phone: '+506 4000 1234',
+    address: 'Richmond, Londres, Reino Unido',
+    phone: '+44 7700 900077',
     hours: 'Lun a Sáb · 10:00 – 21:00',
     rights: 'Todos los derechos reservados.',
     privacy: 'Privacidad',

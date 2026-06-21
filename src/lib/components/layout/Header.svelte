@@ -46,7 +46,7 @@
       class="hidden flex-1 items-center gap-1.5 text-[10px] font-medium tracking-[0.25em] text-(--text-muted) uppercase md:flex"
     >
       <span class="inline-block h-1 w-1 rounded-full bg-(--accent)"></span>
-      <span>Escazú, Costa Rica</span>
+      <span>Richmond, London</span>
     </div>
 
     <!-- Center: Logotipo y Links -->
@@ -54,11 +54,11 @@
       <a
         href={base}
         class="group flex items-baseline gap-1 text-(--text-base) transition-opacity hover:opacity-80"
-        aria-label="Hondo"
+        aria-label="Demo Massage"
       >
         <span
-          class="font-display text-2xl font-light tracking-[0.3em] uppercase text-(--text-base) md:text-3xl"
-          >Hondo</span
+          class="font-display text-2xl font-light tracking-[0.18em] uppercase text-(--text-base) md:text-3xl"
+          >Demo Massage</span
         >
       </a>
 

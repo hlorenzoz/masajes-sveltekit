@@ -1,7 +1,7 @@
 import type { Dictionary, Lang } from '$lib/i18n/types';
 
-export const SITE_NAME = 'Hondo';
-export const SITE_URL = 'https://hondo.example';
+export const SITE_NAME = 'Demo Massage';
+export const SITE_URL = 'https://demomassage.co.uk';
 
 export interface MetaInput {
   lang: Lang;
@@ -20,7 +20,7 @@ export interface MetaTags {
   alternates: { lang: Lang; href: string }[];
 }
 
-const DEFAULT_OG = 'https://picsum.photos/seed/hondo-hero/1200/630';
+const DEFAULT_OG = 'https://picsum.photos/seed/demomassage-hero/1200/630';
 
 export function buildMeta({ lang, title, description, path = '', image }: MetaInput): MetaTags {
   return {
@@ -48,10 +48,10 @@ export function localBusinessJsonLd(dict: Dictionary): string {
     priceRange: '€€',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Escazú',
-      postalCode: '10201',
-      addressLocality: 'San José',
-      addressCountry: 'CR'
+      streetAddress: '12 George St',
+      postalCode: 'TW9 1JY',
+      addressLocality: 'Richmond, London',
+      addressCountry: 'GB'
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',

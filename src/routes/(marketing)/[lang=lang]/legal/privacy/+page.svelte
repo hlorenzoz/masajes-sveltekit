@@ -11,7 +11,7 @@
 
 <svelte:head>
   <title>
-    {lang === 'es' ? 'Política de Privacidad · Hondo' : 'Privacy Policy · Hondo'}
+    {lang === 'es' ? 'Política de Privacidad · Demo Massage' : 'Privacy Policy · Demo Massage'}
   </title>
 </svelte:head>
 
@@ -39,7 +39,7 @@
 
       <div class="prose dark:prose-invert text-base leading-relaxed text-(--text-muted) space-y-8">
         <p>
-          En <strong>Hondo</strong>, valoramos y respetamos tu privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que nos proporcionás al interactuar con nuestro sitio web y al solicitar reservas de sesiones de masaje terapéutico.
+          En <strong>Demo Massage</strong>, valoramos y respetamos tu privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que nos proporcionás al interactuar con nuestro sitio web y al solicitar reservas de sesiones de masaje terapéutico.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
@@ -88,7 +88,7 @@
           5. Tus Derechos
         </h2>
         <p>
-          Tenés derecho a acceder, rectificar, limitar o solicitar la eliminación de tus datos personales en cualquier momento. Para ejercer estos derechos, podés ponerte en contacto con nosotros escribiendo a <strong>contacto@hondo.cr</strong>.
+          Tenés derecho a acceder, rectificar, limitar o solicitar la eliminación de tus datos personales en cualquier momento. Para ejercer estos derechos, podés ponerte en contacto con nosotros escribiendo a <strong>hello@demomassage.co.uk</strong>.
         </p>
       </div>
     {:else}
@@ -104,7 +104,7 @@
 
       <div class="prose dark:prose-invert text-base leading-relaxed text-(--text-muted) space-y-8">
         <p>
-          At <strong>Hondo</strong>, we value and respect your privacy. This Privacy Policy describes how we collect, use, and protect the personal information you provide when interacting with our website and requesting therapeutic massage bookings.
+          At <strong>Demo Massage</strong>, we value and respect your privacy. This Privacy Policy describes how we collect, use, and protect the personal information you provide when interacting with our website and requesting therapeutic massage bookings.
         </p>
 
         <h2 class="font-display text-2xl text-(--text-base) font-light pt-4 border-b border-(--line) pb-2">
@@ -153,7 +153,7 @@
           5. Your Rights
         </h2>
         <p>
-          You have the right to access, rectify, restrict, or request the deletion of your personal data at any time. To exercise these rights, please contact us by writing to <strong>contacto@hondo.cr</strong>.
+          You have the right to access, rectify, restrict, or request the deletion of your personal data at any time. To exercise these rights, please contact us by writing to <strong>hello@demomassage.co.uk</strong>.
         </p>
       </div>
     {/if}
